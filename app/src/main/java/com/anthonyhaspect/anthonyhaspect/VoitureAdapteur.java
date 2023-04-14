@@ -9,13 +9,14 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class VoitureAdapteur extends ArrayAdapter<Voiture> {
     private Context context;
     private LayoutInflater inflater;
 
-    public VoitureAdapteur(Context context, ArrayAdapter<Voiture> tabVoiture){
+    public VoitureAdapteur(Context context, ArrayList<Voiture> tabVoiture){
         super(context, 0, (List<Voiture>) tabVoiture);
         this.context = context;
         this.inflater = LayoutInflater.from(context);
@@ -31,7 +32,15 @@ public class VoitureAdapteur extends ArrayAdapter<Voiture> {
         TextView tvTel =  view.findViewById(R.id.tvNumeroTel);
         TextView tvPrix = view.findViewById(R.id.tvPrix);
         ImageView image = view.findViewById(R.id.imgView);
-        ImageButton imageButton = view.findViewById(R.id.btnTel);
+        Voiture voiture = this.getItem(position);
+        tvMarque.setText(voiture.marque);
+        tvModel.setText(voiture.model);
+        String str = voiture.prix + "$";
+        tvPrix.setText(str);
+        tvTel.setText(voiture.numTel);
+        image.setImageDrawable(context.getDrawable(voiture.id));
+
+        return view;
 
     }
 }

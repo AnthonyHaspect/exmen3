@@ -55,5 +55,5 @@
         app:layout_constraintBottom_toBottomOf="@+id/imgView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imgView"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/telphone" />
 </androidx.constraintlayout.widget.ConstraintLayout>
