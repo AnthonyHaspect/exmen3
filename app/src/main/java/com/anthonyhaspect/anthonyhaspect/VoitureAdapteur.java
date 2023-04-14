@@ -1,2 +1,4 @@
-package com.anthonyhaspect.anthonyhaspect;public class VoitureAdapteur {
+package com.anthonyhaspect.anthonyhaspect;
+
+public class VoitureAdapteur {
 }

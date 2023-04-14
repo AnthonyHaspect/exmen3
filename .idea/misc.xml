@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/examen3/app/src/main/res/layout-land/activity_main.xml" value="0.33" />
+        <entry key="..\:/Android/examen3/app/src/main/res/layout-land/ajout_voiture.xml" value="0.31040564373897706" />
+        <entry key="..\:/Android/examen3/app/src/main/res/layout-land/layout_voiture.xml" value="0.31040564373897706" />
         <entry key="..\:/Android/examen3/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Android/examen3/app/src/main/res/layout/ajout_voiture.xml" value="0.358695652173913" />
+        <entry key="..\:/Android/examen3/app/src/main/res/layout/layout_voiture.xml" value="0.33" />
       </map>
     </option>
   </component>

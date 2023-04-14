@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:text="@string/marque"
         app:layout_constraintBottom_toBottomOf="@+id/etMarque"
+        app:layout_constraintEnd_toStartOf="@+id/etMarque"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/etMarque" />
 
@@ -21,8 +22,10 @@
         android:ems="10"
         android:hint="@string/marque"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -31,6 +34,7 @@
         android:layout_height="wrap_content"
         android:text="@string/model"
         app:layout_constraintBottom_toBottomOf="@+id/etModel"
+        app:layout_constraintEnd_toStartOf="@+id/etModel"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etMarque" />
 
@@ -41,7 +45,9 @@
         android:ems="10"
         android:hint="@string/model"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etMarque" />
 
     <TextView
@@ -50,6 +56,7 @@
         android:layout_height="wrap_content"
         android:text="@string/prix"
         app:layout_constraintBottom_toBottomOf="@+id/etPrix"
+        app:layout_constraintEnd_toStartOf="@+id/etPrix"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etModel" />
 
@@ -60,7 +67,9 @@
         android:ems="10"
         android:hint="@string/prix"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etModel" />
 
     <TextView
@@ -69,6 +78,7 @@
         android:layout_height="wrap_content"
         android:text="@string/telphone"
         app:layout_constraintBottom_toBottomOf="@+id/etTel"
+        app:layout_constraintEnd_toStartOf="@+id/etTel"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPrix" />
 
@@ -79,7 +89,9 @@
         android:ems="10"
         android:hint="@string/telphone"
         android:inputType="textPersonName"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPrix" />
 
     <Button

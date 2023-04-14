@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AnthonyHaspect</string>
+    <string name="marque">Marque</string>
+    <string name="model">Model</string>
+    <string name="prix">Prix</string>
+    <string name="telphone">Telphone</string>
+    <string name="ajouter">Ajouter</string>
 </resources>
